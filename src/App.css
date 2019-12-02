@@ -23,11 +23,11 @@
 
 html,
 body {
-  background-color: #252839 !important;
+  background-color: #fafafa !important;
 }
 p {
   align-content: center;
-  background-color: #495285;
+  background-color: #fafafa;
   color: #fff;
   display: flex;
   flex-direction: column;
