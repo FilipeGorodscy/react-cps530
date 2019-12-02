@@ -2,7 +2,7 @@
   "name": "react-folder",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://FilipeGorodscy.github.io/flask-test",
+  "homepage": "https://FilipeGorodscy.github.io/react-cps530",
   "dependencies": {
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.18.2",
