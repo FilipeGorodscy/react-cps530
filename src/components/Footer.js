@@ -1,5 +1,5 @@
-import React from 'react'
-import './Footer.css'
+import React from 'react';
+import './Footer.css';
 
 export const Footer = () => (
   <div>
@@ -7,20 +7,32 @@ export const Footer = () => (
 
     <ul className="Lead">
       <li>
-        Page1: <a href="/">Frameworks</a>
+        Page1: <a href="https://cps530assignment.herokuapp.com/">Frameworks</a>
       </li>
       <li>
-        Page2: <a href="installation.html">Installation</a>
+        Page2:{' '}
+        <a href="https://cps530assignment.herokuapp.com/installation.html">
+          Installation
+        </a>
       </li>
       <li>
-        Page3: <a href="tutorial.html">Tutorial</a>
+        Page3:{' '}
+        <a href="https://cps530assignment.herokuapp.com/tutorial.html">
+          Tutorial
+        </a>
       </li>
       <li>
-        Page5: <a href="conclusion.html">Conclusion</a>
+        Page5:{' '}
+        <a href="https://cps530assignment.herokuapp.com/conclusion.html">
+          Conclusion
+        </a>
       </li>
       <li>
-        Page6: <a href="credits.html">Credits</a>
+        Page6:{' '}
+        <a href="https://cps530assignment.herokuapp.com/credits.html">
+          Credits
+        </a>
       </li>
     </ul>
   </div>
-)
+);
