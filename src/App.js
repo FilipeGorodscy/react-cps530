@@ -1,26 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from 'react'
+import './App.css'
+import { Games } from './components/Games'
+import { GameForm } from './components/GameForm'
+import { Container } from 'semantic-ui-react'
+import { Footer } from './components/Footer'
 
 function App() {
+  const [games, setList] = useState([])
+
+  useEffect(() => {
+    fetch('/games').then(response =>
+      response.json().then(data => {
+        setList(data.games)
+      }),
+    )
+  }, [])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <div className="App">
+        <h1>Page 4</h1>
+
+        <Container style={{ marginTop: 50 }}>
+          <GameForm
+            user_submitted={game =>
+              setList(current_list => [game, ...current_list])
+            }
+          />
+          <Games games={games} />
+        </Container>
+      </div>
+      <Footer />
+    </>
+  )
 }
 
-export default App;
+export default App
