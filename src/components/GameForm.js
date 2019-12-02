@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
-import { Form, Input, Button } from 'semantic-ui-react'
+import React, { useState } from 'react';
+import { Form, Input, Button } from 'semantic-ui-react';
 
 export const GameForm = ({ user_submitted }) => {
-  const [title, set_title] = useState('')
-  const [description, set_description] = useState('')
-  const [rating, set_rating] = useState('')
-  const [image, set_image] = useState('')
+  const [title, set_title] = useState('');
+  const [description, set_description] = useState('');
+  const [rating, set_rating] = useState('');
+  const [image, set_image] = useState('');
 
   return (
     <Form>
@@ -44,19 +44,14 @@ export const GameForm = ({ user_submitted }) => {
       <Form.Field>
         <Button
           onClick={async () => {
-            const game = { title, description, rating, image }
-            await fetch('/add_game', {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify(game),
-            })
+            const game = { title, description, rating, image };
 
-            user_submitted(game)
+            user_submitted(game);
           }}
         >
           Submit
         </Button>
       </Form.Field>
     </Form>
-  )
-}
+  );
+};
