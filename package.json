@@ -1,8 +1,7 @@
 {
-  "name": "react-folder",
+  "name": "react-cps530",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://FilipeGorodscy.github.io/react-cps530",
   "dependencies": {
     "axios": "^0.19.0",
     "eslint-config-standard": "^14.1.0",
@@ -27,7 +26,6 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "proxy": "http://localhost:5000",
   "browserslist": {
     "production": [
       ">0.2%",
