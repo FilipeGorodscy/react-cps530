@@ -7,23 +7,23 @@ export const Footer = () => (
 
     <ul className="Lead">
       <li>
-        Page1: <a href="https://cps530assignment.herokuapp.com/">Frameworks</a>
+        Page1: <a href="https://react-flask-frameworks.herokuapp.com/">Frameworks</a>
       </li>
       <li>
         Page2:{' '}
-        <a href="https://cps530assignment.herokuapp.com/installation.html">
+        <a href="https://react-flask-frameworks.herokuapp.com/installation.html">
           Installation
         </a>
       </li>
       <li>
         Page3:{' '}
-        <a href="https://cps530assignment.herokuapp.com/tutorial.html">
+        <a href="https://react-flask-frameworks.herokuapp.com/tutorial.html">
           Tutorial
         </a>
       </li>
       <li>
         Page5:{' '}
-        <a href="https://cps530assignment.herokuapp.com/conclusion.html">
+        <a href="https://react-flask-frameworks.herokuapp.com/conclusion.html">
           Conclusion
         </a>
       </li>
