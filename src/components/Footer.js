@@ -29,7 +29,7 @@ export const Footer = () => (
       </li>
       <li>
         Page6:{' '}
-        <a href="https://cps530assignment.herokuapp.com/credits.html">
+        <a href="https://react-flask-frameworks.herokuapp.com/credits.html">
           Credits
         </a>
       </li>
