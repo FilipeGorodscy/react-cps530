@@ -7,28 +7,28 @@ export const Footer = () => (
 
     <ul className="Lead">
       <li>
-        Page1: <a href="https://react-flask-frameworks.herokuapp.com/">Frameworks</a>
+        Go to: <a href="https://react-flask-frameworks.herokuapp.com/">Frameworks</a>
       </li>
       <li>
-        Page2:{' '}
+        Go to:{' '}
         <a href="https://react-flask-frameworks.herokuapp.com/installation.html">
           Installation
         </a>
       </li>
       <li>
-        Page3:{' '}
+        Go to:{' '}
         <a href="https://react-flask-frameworks.herokuapp.com/tutorial.html">
           Tutorial
         </a>
       </li>
       <li>
-        Page5:{' '}
+        Go to:{' '}
         <a href="https://react-flask-frameworks.herokuapp.com/conclusion.html">
           Conclusion
         </a>
       </li>
       <li>
-        Page6:{' '}
+        Go to:{' '}
         <a href="https://react-flask-frameworks.herokuapp.com/credits.html">
           Credits
         </a>
